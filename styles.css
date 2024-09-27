@@ -1,0 +1,157 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.logo {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Styles for the Xbox section */
+.xbox-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.xbox-series {
+    text-align: center;
+    margin: 20px;
+    flex: 1;
+    max-width: 45%;
+}
+
+.xbox-image {
+    width: 100%;
+    max-width: 600px; /* Adjust this value as needed */
+    height: auto;
+    border: 2px solid #1e1e1e;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px; /* Espacio entre imágenes */
+}
+
+.gallery img {
+    width: 200px; /* Ajusta el tamaño según lo desees */
+    height: 200px; /* Asegura que la altura sea igual a la anchura */
+    object-fit: cover; /* Mantiene el aspecto sin distorsionar */
+    border: 2px solid #1e1e1e;
+    border-radius: 8px;
+}
+/* Styles for the Video Gallery */
+.video-gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.video-column {
+    width: 48%; /* Ajusta el ancho según sea necesario */
+}
+
+.video-item {
+    margin-bottom: 20px; /* Espacio entre los videos */
+    text-align: center;
+}
+
+.video-item p {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #333; /* Ajusta el color según tu diseño */
+}
+/* Estilos para la sección de misión y visión */
+
+#mision-vision {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+#mision-vision h2 {
+    text-align: center;
+    color: #1e1e1e;
+}
+
+.microsoft-section, .xbox-section {
+    margin-bottom: 40px;
+}
+
+.microsoft-section h3, .xbox-section h3 {
+    color: #1e1e1e;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.microsoft-section p, .xbox-section p {
+    font-size: 1em;
+    color: #333;
+    line-height: 1.6;
+}
+/* Estilos para centrar y redimensionar el logo de Microsoft */
+.logo-microsoft {
+    display: inline-block;
+    width: 250px; /* Ajusta el tamaño del logo de Microsoft */
+    height: auto;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/* Estilos para centrar y redimensionar el logo de Xbox */
+.logo-xbox {
+    display: inline-block;
+    width: 150px; /* Ajusta el tamaño del logo de Xbox */
+    height: auto;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/* Centrar los títulos */
+#mision-vision h2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
